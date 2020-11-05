@@ -13,7 +13,7 @@ const alanKey = '1cf0458946fd2c0074c78af257721af02e956eca572e1d8b807a3e2338fdd0d
 const App = () => {
     const [newsArticles, setNewArticles] = useState([])
     const [activeArticle, setActiveArticle] = useState(-1)
-    const classes = useStyles()
+    /* const classes = useStyles() */
 
     useEffect(() => {
         alanBtn({
