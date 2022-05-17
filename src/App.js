@@ -48,7 +48,7 @@ const App = () => {
                 </div>
                 <NewsCards articles={newsArticles} activeArticle={activeArticle} />
                 <div className="lol">
-                    Copyright 2020 Manasvi Garg & Mohit Srivastava
+                    Developers: Mohit Srivastava | Shashank Singh | Shivangi Singh
                     <br/>
                     MAHADEV
                 </div>
