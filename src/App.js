@@ -48,7 +48,7 @@ const App = () => {
                 </div>
                 <NewsCards articles={newsArticles} activeArticle={activeArticle} />
                 <div className="lol">
-                    Developers: Mohit Srivastava | Shashank Singh | Shivangi Singh
+                    Developers: Mohit Srivastava | Ishan Singh
                     <br/>
                     MAHADEV
                 </div>
