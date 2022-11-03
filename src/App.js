@@ -7,8 +7,8 @@ import NewsCards from './components/NewsCards/NewsCards'
 /* import useStyles from './styles.js' */
 import './index.css'
 
-const alanKey = '1cf0458946fd2c0074c78af257721af02e956eca572e1d8b807a3e2338fdd0dc/stage'
-
+/* const alanKey = '1cf0458946fd2c0074c78af257721af02e956eca572e1d8b807a3e2338fdd0dc/stage' */
+const alanKey = '2895da8a7add4abba8cf66ef1402b66a'
 
 const App = () => {
     const [newsArticles, setNewArticles] = useState([])
@@ -48,7 +48,7 @@ const App = () => {
                 </div>
                 <NewsCards articles={newsArticles} activeArticle={activeArticle} />
                 <div className="lol">
-                    Developers: Mohit Srivastava | Ishan Singh
+                    Developers: Mohit Srivastava
                     <br/>
                     MAHADEV
                 </div>
